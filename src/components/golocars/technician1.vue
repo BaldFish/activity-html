@@ -1,6 +1,6 @@
 <template>
   <div class="technician1">
-    technician1
+    <img src="../../common/images/01.png" alt="yure">
   </div>
 </template>
 
@@ -25,5 +25,12 @@
 
 <style scoped lang="stylus">
   .technician1 {
+    font-size 0
+    width 750px
+    height 1334px
+    img{
+      width 100%
+      height 100%
+    }
   }
 </style>

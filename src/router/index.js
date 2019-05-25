@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import myTechnician1 from '@/components/technician1/technician1'
+import myTechnician1 from '@/components/golocars/technician1'
 Vue.use(Router);
 
 export default new Router({
