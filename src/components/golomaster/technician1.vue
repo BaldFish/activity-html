@@ -9,9 +9,15 @@
     name: "technician1",
     components: {},
     data() {
-      return {}
+      return {
+        shareTitle:"技师节",
+        shareDesc:"",
+        shareUrl:location.origin+"/golomaster/technician/1",
+        shareImg:location.origin+"/static/images/share.png",
+      }
     },
     created() {
+      //this.$wxShare.wxShare(this,this.shareTitle, this.shareDesc,this.shareUrl,this.shareImg)
     },
     beforeMount() {
     },
