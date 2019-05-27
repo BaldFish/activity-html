@@ -10,14 +10,14 @@
     components: {},
     data() {
       return {
-        shareTitle:"技师节",
+        shareTitle:"",
         shareDesc:"",
         shareUrl:location.origin+"/goloclass/technician/1",
         shareImg:location.origin+"/static/images/share.png",
       }
     },
     created() {
-      //this.$wxShare.wxShare(this,this.shareTitle, this.shareDesc,this.shareUrl,this.shareImg)
+      this.$wxShare.wxShare(this,this.shareTitle, this.shareDesc,this.shareUrl,this.shareImg)
     },
     beforeMount() {
     },
