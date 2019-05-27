@@ -10,7 +10,7 @@ Vue.use(Vuex);
 import '@/common/stylus/index.styl';
 import 'lib-flexible'
 
-/*import $ from 'jquery';
+import $ from 'jquery';
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
@@ -55,7 +55,7 @@ Vue.prototype.$wxShare = wxShare;
 
 import VueScroller from 'vue-scroller';
 
-Vue.use(VueScroller);*/
+Vue.use(VueScroller);
 
 
 Vue.config.productionTip = false;
