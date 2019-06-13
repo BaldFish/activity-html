@@ -1,6 +1,6 @@
 <template>
   <div class="technician1">
-    <img src="../../common/images/02.png" alt="yure">
+    <img src="./images/03.png" alt="活动">
   </div>
 </template>
 
