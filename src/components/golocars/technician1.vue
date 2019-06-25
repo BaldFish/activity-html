@@ -34,6 +34,8 @@
     font-size 0
     width 750px
     height 1334px
+    margin 0 auto
+    text-align center
     img{
       width 100%
       height 100%
