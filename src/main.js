@@ -8,7 +8,8 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 
 import '@/common/stylus/index.styl';
-import 'lib-flexible'
+//import 'lib-flexible'
+import '@/common/js/flexible.js'
 
 import $ from 'jquery';
 
